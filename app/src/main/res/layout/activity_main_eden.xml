@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityEden">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ImageView
+
+        android:layout_marginLeft="50dp"
+        android:id="@+id/imageView28"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/anthonyeden"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView70"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Robert Anthony Eden"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 June, 1897"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Conservative"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView74"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: He had operation to remove gallstones in 1953. The operation went wrong, and his health was ruined, His wife was the neice of Winston Churchill, He is most famous for the Suez Crisis  "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="483dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio: Sir Robert Anthony Eden, 1st Earl of Avon was born on 12 June 1897 and was educated at Eton and Christ Church, University of Oxford.  Sir Anthony Eden carved out a career in the Foreign Office, serving as Foreign Secretary 3 times during important periods in the Second World War and the Cold War.  He was acknowledged by many as Winston Churchill‘s successor and took over as Prime Minister in April 1955 at the age of 57. He immediately called a general election and on 5 May 1955 increased the Conservative majority from 17 to 60.  Less than a year into his premiership, his opinion poll approval ratings had fallen from 70% to around 40% and his failings as Prime Minister were increasingly the talk of Whitehall and the press. Tired, stressed, overworked and in desperate need of a holiday, he became increasingly ill after a series of abdominal operations in 1953.  As Prime Minister, he left the areas he had very little experience in, such as domestic and economic policy, to his deputy Rab Butler, preferring instead to focus on foreign affairs. The Cold War was at its peak, and the preoccupation of maintaining the country’s great power status was at a time when the British economy could no longer afford such commitments. This led Britain, under Sir Anthony Eden’s leadership, to miss out on important developments in western Europe, such as the 1955 Messina talks on closer economic integration.  His controversial handling of the Suez crisis in 1956 ultimately proved to be his downfall. After the nationalisation of the Suez canal by the Egyptian nationalist Colonel Abdul Nasser, Sir Anthony Eden, fearing a new Arab alliance would cut off oil supplies to Europe, conspired with France and Israel in order to retake the canal. Following a badly performed invasion, widespread international condemnation from the United Nations, the Soviet Union, the Commonwealth and the threat of sanctions from the United States, Sir Anthony Eden was forced into a humiliating retreat.  “In his mind,” the Sunday Times Washington correspondent Henry Brandon observed, “Sir Eden‘s whole proud career had been scarred by a decision which misfired for lack of American cooperation.” He attempted to cover up the conspiracy, lied to Parliament and ordered his civil servants to burn the damaging evidence. Isolated, he resigned on 9 January 1957 having shown the world that Britain was no longer the great power it had once been. The Suez crisis, according to one of his official biographers D R Thorpe, “was a truly tragic end to his premiership, and one that came to assume a disproportionate importance in any assessment of his career”."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="426dp" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

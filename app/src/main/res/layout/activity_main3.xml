@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.Main3Activity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_marginLeft="50dp"
+                android:id="@+id/imageView"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/davidcameron"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+
+
+
+                android:textColor="#000"
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="David William Donald Cameron"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="226dp" />
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Born: 9 October, 1966"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="266dp" />
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Party: Conservative"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="308dp" />
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView13"
+                android:layout_width="381dp"
+                android:layout_height="81dp"
+                android:text="Jobs Before PM: Conservative Research Department, Special Adviser to the Chancellor, Special Adviser to the Home Secretary, MP for Witney, Shadow Secretary of State for Education and Skills "
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="355dp" />
+
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView15"
+                android:layout_width="370dp"
+                android:layout_height="118dp"
+                android:text="Fun Facts: Cameron admits that he is a fan of Aston Villa. He stated in an interview that one of his relative used to own this Birmingham club, He was part of the infamous Bullingdon Club during his university years at Oxford, Did not allow his children to have mobile devices, Is a descendant of King William IV,"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="534dp" />
+
+
+            <TextView
+
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bio: David Cameron was born October 1966, in Marylebone, London and raised in Peasemore, Berkshire to a Upper middle-class family. His father was a stockbroker, distantly related to King William IV.  Cameron was educated at Eton and later Brasenose College, Oxford University. At Oxford he studied PPE, and was taught by leading politics professor – Prof Vernon Bogdanor; Bogdanor was impressed with the maturity and political views of this student.  Cameron graduated with a first class honours degree. At Oxford, he was also a member of the Bullingdon Club, along with Boris Johnson – the club has a reputation for being a ‘toff’s drinking club. After becoming Prime Minister, Cameron had to fend off allegations of ‘social elitism’, especially with his cabinet dominated by white men, Old Etonians and Oxbridge graduates.  After graduating from Oxford, he worked for the Conservative Research Department. This led to further opportunities, within the Conservative party. During John Major’s Prime Ministerial period, he helped Major prepare for Commons debates.  In 1992, he was part of the team which helped John Major to unexpectedly win the 1992 election. It was considered a great achievement, given the economy was in recession.  After the election, he worked as special advisor to the Chancellor Norman Lamont and later to the home office. Despite Lamont’s unpopularity and the debacle over the ERM exit, his reputation remained unscathed.  In 1994, he left his role in the Conservative party to work in the private sector, working as a director for Carlton Communications. In 1996 he married Samantha, they have four children  He stayed in this role until 2001, when he left to contest an election for Parliament. He was selected as the candidate for Witney and was elected to Parliament. He served on the Home Affairs Select Committee and gained a high profile for speaking out on national issues.  In 2003, he was appointed shadow minister in the Privy Council and vice chairman of the Conservative party. In 2005, Michael Howard resigned as leader of the Conservative party, leaving the leadership wide open. Despite his young age and relative lack of experience, he gained support from some key party members. The party was keen to look towards a new generation, who could perhaps compete with a revitalised ‘New Labour’ party.  At the 2005 party conference, he tapped into this by making a well-received speech in which he spoke of making people ‘feel good to be Conservatives again’ and inspiring a new generation. Despite finishing second in the first ballot, he went on to win, beating more established names. In spite of criticism from both the left and right wings of his party, he led to the Conservatives to a partial victory in the 2010 elections. The Conservatives gained the most seats but had to form a coalition with the Liberal Democrats. Cameron was elected Prime Minister, with his faithful friend George Osborne as chancellor. Nick Clegg, the Lib Dem leader, was also in the cabinet as deputy leader. In 2014, Scotland had a referendum on independence. Cameron played a role in campaigning for Scotland to remain in the UK. He argued independence would harm Scotland economically. The vote was 55-45% to remain part of UK, after a late swing to the existing status-quo. Success in the Scottish Referendum perhaps encouraged Cameron to have a referendum on EU Membership. Cameron hoped he could win the referendum and silence the increasingly Eurosceptic wing within the Conservative Party.However, the tabloid press were mostly in favour of Leaving the EU and had frequently raised the issue of immigration over the preceding years. As Prime Minister Cameron had placed targets for net migration, but these had repeatedly been breached. Many felt the inability to control immigration from Eastern Europe, was a decisive factor in encouraging many to vote Leave. His old friend and fellow Old-Etonian Boris Johnson‘s, decision to campaign for Vote Leave was also important. Cameron had hoped Johnson would support him. Despite warning of the economic dangers of leaving the EU, the country voted 52-48% to vote to leave in June 2016. After the referendum defeat, Cameron announced he would stand down as Prime Minister, he later also resigned his constituency seat in Witney."
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="485dp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

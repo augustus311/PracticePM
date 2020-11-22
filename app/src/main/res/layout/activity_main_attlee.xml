@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityAttlee">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="352dp"
+        android:layout_height="310dp"
+        app:srcCompat="@drawable/clementattlee"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+
+
+            android:textColor="#000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clement Richard Attlee, 1st Earl Attlee"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 January, 1883 "
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Labour"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView84"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: He played football for Fleet Town F.C, He was the first Labour Prime Minister ever to serve a full term, He was voted Britain's best PM by a poll and Attlee is consistently rated by scholars, critics and the public as one of the greatest British Prime Ministers"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="576dp" />
+
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView83"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Bio: Born to a middle-class family in London, Clement Attlee studied at Oxford University, and then trained as a lawyer. He went on to manage Haileybury House, a charitable youth organisation in Limehouse, east London. This experience clearly had a profound impact on Attlee, whose political views were shaped by the poverty he witnessed in London’s East End, and in 1908, he joined the Independent Labour Party. Upon the advent of the First World War, he applied for a Commission and served as a Captain. His reputation as an effective, efficient leader gained him promotion to the rank of Major, a title that would stay with him beyond his military life.  On returning from the war, Attlee moved into politics, becoming Mayor of Stepney in 1919 and MP for Limehouse in 1922. He continued to rise within the Labour Party, and was elected its leader in 1935, following the resignation of George Lansbury. During the Second World War, he was called into Winston Churchill’s coalition government, notably holding the title of Deputy Prime Minister from 1942 to 1945. When a general election was called at the peak of the war in Europe, Attlee led the Labour Party to a surprising landslide victory, winning 393 seats to the Conservative’s 213, and 48% of the public vote.  His period as Prime Minister was one of intense activity. The notoriously blunt, relatively quiet man was nevertheless very skilled at quick, decisive action. His leadership style was apparently collective, but once the Prime Minister had let his Cabinet voice their opinions, he would quickly make decisions with military precision. As a result, practically all of Labour’s manifesto pledges were implemented under Attlee. Despite the Second World War leaving Britain effectively bankrupt, he managed the creation of the National Health Service, part of the Welfare State that sought to provide ‘cradle to the grave’ care for British citizens. On top of this, many of Britain’s largest industries – such as coal mining, electricity and the railways – were brought under state control, despite recurring currency crises and shortages of food and resources so severe that rationing had to be maintained long after the war.  Attlee’s time as Prime Minister also saw intense foreign policy activity. He placed great faith in Ernest Bevin, his Foreign Secretary, and together they oversaw Indian independence, American loans and ‘Marshall Aid’ for the rebuilding of Britain and Western Europe, the Berlin airlift and Britain’s commitment to the United Nations.  In the 1950 General Election Labour lost its majority, and by the time of its defeat in the general election of 1951, the Labour government had worked itself to near exhaustion. Attlee, however, continued to lead the Labour party until 1955, and died in 1967, aged 84.  More than one survey of academics has voted Attlee the most successful British Prime Minister of all time."
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

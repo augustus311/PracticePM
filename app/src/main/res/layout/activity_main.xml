@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="open" />
+
+            <ImageView
+
+
+                android:id="@+id/imageViewBoris"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/borisohnsonportraitfive" />
+
+
+            <TextView
+
+
+                android:id="@+id/textViewBoris"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Conservatives 2019 - Present"
+                android:textAlignment="center" />
+
+            <TextView
+
+
+                android:id="@+id/textViewBorisJ"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-120dp"
+                android:text="Boris Johnson"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/dividerBoris"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="open" />
+
+            <ImageView
+
+
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/theresamaroundf" />
+
+
+            <TextView
+
+
+                android:id="@+id/textView"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Conservatives 2016 - 2019"
+                android:textAlignment="center" />
+
+            <TextView
+
+
+                android:id="@+id/textViewTwo"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-120dp"
+                android:text="Theresa May"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <View
+
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="60dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <TextView
+
+                android:id="@+id/textView2"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:text="David Cameron"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:id="@+id/textView3"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 2010 - 2016"
+                android:textAlignment="center" />
+
+            <View
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                android:onClick="opencameron" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/davidcameronroundf" />
+
+
+            <View
+
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openbrown" />
+
+            <TextView
+
+                android:id="@+id/textViewBrown"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-100dp"
+                android:text="Gordon Brown"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewBrownage"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 2007 - 2010"
+                android:textAlignment="center" />
+
+            <ImageView
+
+                android:id="@+id/imageViewBrown"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/gordonround" />
+
+
+            <View
+
+                android:id="@+id/dividerbrown"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openblair" />
+
+
+            <TextView
+
+
+                android:id="@+id/textViewBlair"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="-100dp"
+                android:text="Tony Blair"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewBlairage"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 1997 - 2007"
+                android:textAlignment="center" />
+
+            <ImageView
+
+                android:id="@+id/imageView9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/tonyblairround" />
+
+
+            <View
+
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openmajor" />
+
+            <TextView
+
+                android:id="@+id/textViewMajor"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-100dp"
+                android:text="John Major"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewMajorage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1990 - 1997"
+                android:textAlignment="center" />
+
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/johnround" />
+
+            <View
+
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openthatcher" />
+
+
+            <TextView
+
+                android:id="@+id/textViewMT"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Margret Thatcher"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewMtage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1979 - 1990"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/margretthatcheround" />
+
+            <View
+
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="opencallagan" />
+
+
+            <TextView
+
+                android:id="@+id/textViewCallagab"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="James Callagan"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewCallaganage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 1976 - 1979"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/jamescallaghanround" />
+
+            <View
+
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openwilson" />
+
+
+            <TextView
+
+                android:id="@+id/textViewWilson"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Harold Wilson"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewWilsonage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 1974 - 1976"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/haroldwilsonround" />
+
+            <View
+
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openheath" />
+
+            <TextView
+
+                android:id="@+id/textViewHeath"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Edward Heath"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewHeathage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1970 - 1974"
+                android:textAlignment="center" />
+
+            <ImageView
+
+                android:id="@+id/imageView14"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/edwardround" />
+
+            <View
+
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openwilson" />
+
+            <TextView
+
+                android:id="@+id/textViewWilsonTwo"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Harold Wilson"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewWilsonTwoage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 1964 - 1970"
+                android:textAlignment="center" />
+
+            <ImageView
+
+                android:id="@+id/imageView15"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/haroldwilsonround" />
+
+            <View
+
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openhome" />
+
+            <TextView
+
+                android:id="@+id/textViewHome"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Alec Home"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewHomeage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1963 - 1964"
+                android:textAlignment="center" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/alechomeround" />
+
+            <View
+
+                android:id="@+id/divider11"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openmacmillian" />
+
+
+            <TextView
+
+                android:id="@+id/textViewMac"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Harold Macmillan"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewMacage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1957 - 1963"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView17"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/haroldmacround" />
+
+            <View
+
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openeden" />
+
+            <TextView
+
+                android:id="@+id/textViewEden"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Anthony Eden"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewEdenage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1955 - 1957"
+                android:textAlignment="center" />
+
+            <ImageView
+
+                android:id="@+id/imageView18"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/anthonyedenround" />
+
+            <View
+
+                android:id="@+id/divider13"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openchurchill" />
+
+            <TextView
+
+                android:id="@+id/textViewChurchillTwo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Winston Churchill"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewChurchillTwoage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1951 - 1955"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView19"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/churchilllargeround" />
+
+            <View
+
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openattlee" />
+
+
+            <TextView
+
+                android:id="@+id/textViewAttlee"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Clement Attlee"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewAttleeage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Labour 1945 - 1951"
+                android:textAlignment="center" />
+
+
+            <ImageView
+
+                android:id="@+id/imageView20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-70dp"
+                app:srcCompat="@drawable/clementattleeroundt" />
+
+            <View
+
+                android:id="@+id/divider15"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openchurchill" />
+
+            <TextView
+
+                android:id="@+id/textViewChurchill"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Winston Churchill"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textViewChurchillage"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1940 - 1945"
+                android:textAlignment="center" />
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-60dp"
+                app:srcCompat="@drawable/churchilllargeround" />
+
+
+            <View
+
+                android:id="@+id/dividerChamberlain"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+
+
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:onClick="openchurchill" />
+
+            <TextView
+
+                android:id="@+id/textViewChamberlaintwo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-100dp"
+                android:text="Winston Churchill"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <TextView
+
+                android:id="@+id/textViewChamberlain"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:text="Conservatives 1940 - 1945"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+
+            <ImageView
+                android:id="@+id/imageViewChamberlain"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-60dp"
+                app:srcCompat="@drawable/churchilllargeround" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

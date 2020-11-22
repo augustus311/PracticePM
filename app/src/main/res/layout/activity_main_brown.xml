@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityBrown">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/imageView5"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/gordon"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+
+            android:layout_marginLeft="90dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="James Gordon Brown"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Born: 20 February, 1951"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Labour"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView19"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Jobs Before PM: Lectuer in Politics at Glasgow College of Technology, Tutor at Open University, Journalist"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView21"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: Is blind in his left eye and has lost most of the sight in his right eye, the result of being kicked in the head during a rugby game as a teenager, "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="597dp" />
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio: Gordon Brown was born in Scotland and grew up in the industrial town of Kirkcaldy. He started at Edinburgh University aged 16, becoming the youngest fresher there since the war.  It was at university that he began to have problems with his sight and doctors diagnosed him with a detached retina, which was caused by an injury he received in his final game for his school rugby team. He gained a First Class honours degree in History and became the youngest ever Rector of Edinburgh University in 1972.  Gordon Brown became MP for Dunfermline East in the 1983 General Election with a majority of 11,000 and shared his first office in the House of Commons with Tony Blair, where they became friends. Later he became Shadow Chancellor and backed Tony Blair for the leadership of the Labour Party. Working together they won a landslide majority in 1997.  He was Chancellor of the Exchequer during the longest ever period of economic growth. He also made the Bank of England independent and announced, at the Gleneagles Summit in 2005, an agreement to support the world’s poorest countries and deal with climate change. His passion for global justice was shown in his negotiation to cancel the debts of the world’s poorest nations and the tripling of the development budget.  It was during his time as Chancellor that he proposed to Sarah Macaulay and 7 months later they were married at their home in North Queensferry.  Gordon Brown became Prime Minister on 27 June 2007 after Tony Blair left office. During his time as Prime Minister he oversaw changes such as the introduction of neighbourhood policing in every area, a legally-enforceable right to early cancer screening and treatment, and the world’s first ever Climate Change Act, which was implemented in autumn 2008.  The greatest challenge he faced in office was the worldwide financial crisis and the following recession. In April 2009, he hosted the G20 Summit in London where world leaders pledged to make an additional $1.1 trillion available to help the world economy through the crisis and restore credit, growth and jobs. They also pledged to improve financial supervision and regulation.  UK combat operations in Iraq, which had begun during his predecessor’s time in office, came to an end under Gordon Brown. British forces withdrew from the country at the end of April 2009. He regularly visited Iraq and Afghanistan and, in December 2009, he became the first Prime Minister for some considerable time to stay in a war zone when he stayed overnight in Kandahar, Afghanistan.  He became heavily involved in international negotiations to reach an agreement to replace the Kyoto Treaty and, in December 2009, he attended the United Nations summit in Copenhagen. Following the summit, he pledged to lead an international campaign to turn the agreements reached at Copenhagen into a legally binding treaty.  During his time in office, he worked with his Irish counterpart Brian Cowen to negotiate the devolution of policing and justice powers in Northern Ireland. An agreement was finally reached in February 2010 and the powers were passed to Northern Ireland’s government in the following April."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="544dp" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

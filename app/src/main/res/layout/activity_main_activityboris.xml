@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityboris">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="404dp"
+        android:layout_height="203dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/borusthumbs" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="239dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="30dp"
+        android:text="Alexander Boris de Pfeffel Johnson"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="410dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="32dp"
+        android:text="Born:19 June,1964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="2dp"
+        android:text="Party: Conservative"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView86" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:text="Jobs Before PM: Journalist, Columinst, MP, Mayor of London, Foreign Secretary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:text="Fun Facts: Boris called Burkhas ‘oppressive’ and compared the Burkha-clad Muslim women to ‘letterboxes’, Boris reportedly fabricated a quote in an article he wrote for The Times newspaper, Boris has called Hilary Clinton, former US First Lady, a ‘sadistic nurse in a mental hospital’, Was part of the Infamous Bullingdon Club, "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="20dp"
+        android:text="Alexander Boris de Pfeffel Johnson (/ˈfɛfəl/;[5] born 19 June 1964) is a British politician, author, and former journalist who has served as Prime Minister of the United Kingdom and Leader of the Conservative Party since 2019. He was Foreign Secretary from 2016 to 2018 and Mayor of London from 2008 to 2016. Johnson was Member of Parliament (MP) for Henley from 2001 to 2008 and has been MP for Uxbridge and South Ruislip since 2015. Ideologically, he identifies as a one-nation conservative.  Johnson was educated at Eton College and studied Classics at Balliol College, Oxford. He was elected President of the Oxford Union in 1986. In 1989, he became the Brussels correspondent and later a political columnist for The Daily Telegraph, where his articles exerted a strong Eurosceptic influence on the British right. He was the editor of The Spectator magazine from 1999 to 2005. After being elected MP for Henley in 2001, Johnson served as a junior Shadow Minister under Conservative leaders Michael Howard and David Cameron. In 2008, he was elected Mayor of London and resigned from the House of Commons; he was re-elected as Mayor in 2012. During his mayoralty, Johnson oversaw the 2012 Summer Olympics, introduced the New Routemaster buses, a cycle hire scheme and the Thames cable car, and banned alcohol consumption on much of London's public transport.  In 2015, Johnson was elected MP for Uxbridge and South Ruislip; he stepped down as mayor the following year, during which he became a prominent figure in the successful Vote Leave campaign for Brexit in the 2016 EU membership referendum. He then served as Foreign Secretary during the earlier stages of Theresa May's premiership; he resigned from the post two years later, in criticism of May's approach to Brexit and the Chequers Agreement. After May resigned in 2019, he was elected Conservative leader and appointed prime minister. His September 2019 prorogation of Parliament was ruled unlawful by the Supreme Court.[b] In the 2019 general election, Johnson led the Conservative Party to its biggest parliamentary victory since 1987, winning 43.6% of the vote – the largest share of any party since 1979. The United Kingdom withdrew from the European Union under the terms of a revised Brexit withdrawal agreement, entering into a transition period.  Johnson is a controversial figure in British politics. Supporters have praised him as humorous and entertaining, with an appeal stretching beyond traditional Conservative voters. Conversely, his critics have accused him of dishonesty, elitism, cronyism, and of using racist language."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView89" />
+</android.support.constraint.ConstraintLayout>

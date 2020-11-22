@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityMacmillian">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+
+            android:layout_marginLeft="50dp"
+            android:id="@+id/imageView27"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/haroldmac"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+
+            android:layout_marginLeft="90dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maurice Harold Macmillan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 February, 1894 "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Conservative"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jobs Before PM: Captain, MP for Stockton-on-Tees,"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView69"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: He was half-American Half-British, Harold Macmillan served during both World War I and World War II, His wife, Lady Dorothy, had an ongoing affair with Robert Boothby which began in 1929"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="479dp" />
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio: The half-American son of a publisher, Harold Macmillan was educated at Eton and Balliol College, Oxford and served in both World Wars.  He rose quickly through Conservative ranks and, when the Conservatives were elected in 1951, he was made Minister of Housing, then Minister of Defence, Foreign Secretary and finally Chancellor of the Exchequer.  When Sir Anthony Eden resigned as Prime Minister in January 1957, Macmillan came out from the wreckage of Suez to lead a demoralised Conservative party and a country that was still in the depths of turmoil.  Despite telling the Queen that he did not think the new government would last longer than 6 weeks, Macmillan quickly restored the country’s confidence and its fortunes. In domestic policy, he was determined to avoid the mass unemployment he had witnessed in the 1930s as MP for Stockton-on-Tees. A champion of economic planning and a moderniser at heart, as living standards and prosperity in Britain increased he was able to claim that the British public had “never had it so good”. Dubbed ‘Supermac’, the Conservative party increased its majority in the October 1959 General Election.  On the international scene, Macmillan was busy with the complexities of the Cold War. He led the country through the Cuban Missile crisis and was the first truly nuclear-armed Prime Minister, taking important steps to maintain the effectiveness and credibility of the nuclear deterrent well into the 1980s.  He was responsible for reorientating British foreign policy and he repaired the damage done to the Anglo-American relationship through his close relationships with Presidents Eisenhower and Kennedy. With his ‘winds of change’ speech in 1960, he distanced himself and the country from apartheid and he speeded up the process of decolonisation, following a series of studies into the costs and benefits of the British Empire.  Macmillan acknowledged that Britain’s future lay with Europe, but his plans for entry into the new European Economic Community were set back when the French President General Charles de Gaulle said no to Britain’s application in January 1963. Devastated, he wrote in his diary that “all our policies at home and abroad are in ruins”. His greatest achievement on the international scene came a few months later in August 1963, when he was heavily involved in negotiating the Nuclear Test Ban Treaty, earning praise from Presidents Kennedy and Khrushchev for his patience and diplomacy.  By 1963 the economy, thanks to problems with the balance of payments, was faltering. Harold was also increasingly portrayed as out of touch. The sacking of 6 cabinet ministers in an event that became known as the ‘night of the long knives’ did little to refresh the government. After a series of scandals, the most damaging of which involved the minister John Profumo, he resigned in October 1963."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

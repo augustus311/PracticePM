@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityCallagan">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+
+        android:layout_marginLeft="50dp"
+        android:id="@+id/imageView23"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/jamescallaghan"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+
+            android:layout_marginLeft="90dp"
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Leonard James Callaghan"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27 March, 1912"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Labour"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView43"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Jobs Before PM: Civil Servant, Royal Navy, MP for Cardiff South, Minister of Transport, Financial Secretary to Admiralty, Chancellor, Home Secretary, Foreign Secretary     "
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: James Callaghan is the only 20th-century British Prime Minister to have held all 4 major offices of state: Chancellor of the Exchequer, Home Secretary, Foreign Secretary and Prime Minister. "
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="601dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio: James Callaghan (sometimes affectionately referred to as ‘Big Jim’ or ‘Sunny Jim’) grew up in poverty during the Depression. Unable to afford the tuition fees for University, he joined the Inland Revenue in the 1930s, helping to set up the Association of Officers of Taxes trade union.  He was elected Member of Parliament for Cardiff South in 1945 after spending 3 years in the British Navy during the Second World War.  As Chancellor, Callaghan oversaw the controversial devaluation of the British pound in 1967, which was followed by his swift resignation. His next ministerial position as Home Secretary saw the increase of sectarian violence in Northern Ireland that reached its highest point under the following Conservative administration of Ted Heath.  Callaghan’s short period as Foreign Secretary, however, was interrupted by the surprise resignation of Harold Wilson in 1976. Callaghan, who was popular across all parts of the Labour Party, won the leadership election and became Prime Minister.  Callaghan’s government lost its majority of seats in Parliament on his first day in office. This forced him to rely upon the support of the Liberal Party during 1977 to 1978, and then the Scottish National Party for the remainder of the government. It is for this reason that the 1979 referendum on the devolution of powers to Scotland was produced, which was narrowly defeated by the Scottish voters.  His years as Prime Minister also saw the introduction of the Police Act of 1976, which formalised Police complaints procedures; the Housing (Homeless Persons) Act of 1977, which established the responsibility of local authorities to provide housing to homeless people; and the Education Act of 1976, which limited the number of independent and grant-maintained schools in any one area.  However, these years saw Britain’s economy performing poorly. By 1976, inflation had hit almost 17% with 1.5 million (or around 5% of workers) unemployed. Callaghan’s controversial decision to ask the International Monetary Fund for an emergency loan in 1976 created significant tensions within the Cabinet. His successful leadership during the Cabinet’s careful consideration of this decision has earned him wide praise among later observers.  Despite this success, further attempts by the government to reduce inflation through wage restrictions for public sector workers caused a wave of strikes across the winter of 1978 to 1979, which has become known as the ‘Winter of Discontent’. Having been severely undermined by these events, a motion of ‘no confidence’ against the Callaghan government was called by opposition MPs in Parliament in March 1979. This motion was passed by 311 votes against the 310 MPs that opposed it.  The following general election in May 1979 was won by Margaret Thatcher’s Conservative party."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="540dp" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

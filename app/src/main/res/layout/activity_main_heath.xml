@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.practicepm.MainActivityHeath">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <ImageView
+
+        android:layout_marginLeft="50dp"
+        android:id="@+id/imageView25"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/edwardheath"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#000"
+            android:id="@+id/textView53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sir Edward Richard George Heath"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 July, 1916 "
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party: Conservative"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <TextView
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView55"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Jobs Before PM: Lieutenant Colonel, Civil Servant, Banker, MP for Bexley, Lord Commissioner of Treasury, Chief Whip of the House of Commons and Parliamentary Secretary to the Treasury, Minister of Labour, Lord Keeper of Privy Seal, Secretary of State for Industry, Trade and Regional Development, President of the Board of Trade "
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView57"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="Fun Facts: He never married and was most likely asexual, He was socially awkward and once when a lady tried to flirt with him he ran away "
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="665dp" />
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio: Edward ‘Ted’ Heath was born in Kent to working class parents, in contrast to many previous Conservative leaders and Prime Ministers. He was grammar school educated before going to Balliol College, Oxford, where he was awarded an organ scholarship in his first term. He received a second class degree in Philosophy, Politics and Economics and travelled widely in Europe during his holidays, especially in Spain and Germany. It was during these travels that he first witnessed the horrors of fascism and dictatorship that were sweeping across Europe.  Heath served in the Second World War, reaching the rank of Lieutenant Colonel before briefly entering the Civil Service. He was elected to Parliament in 1950 and rose rapidly to become Government Chief Whip to Anthony Eden before backing Harold Macmillan‘s attempt to lead the UK into the European Community.  He was elected leader of the Conservative Party in 1965, and so began his long-lasting rivalry with Harold Wilson, leader of the Labour Party and Prime Minister.  Heath won the 1970 election, and served his only term as Prime Minister during a time of strong industrial change and economic decline. He was elected on a manifesto to turn around the nation’s fortunes and pursued a number of policies that would later become identified with ‘Thatcherism’. Unemployment continued to rise which, combined with the strength of the trade unions, forced a famous U-turn on the government’s economic policy.  It was from this point that the trade unions sensed they could seize the initiative. Heath’s attempts to weaken their power had failed, and when their pay demands were not met, they went out on strike. Particularly crippling were the miners’ strikes of 1972 and 1974, the second of which led to the 3-day week, when electricity was limited to 3 consecutive days’ use.  Heath also worked to create a lasting peace in Northern Ireland."
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="624dp" />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
